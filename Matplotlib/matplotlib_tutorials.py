@@ -47,4 +47,5 @@ with plt.xkcd():
     plt.xlabel("Years")
     plt.ylabel("Revenue (In $M)")
     plt.legend()
+    plt.style.available
    
