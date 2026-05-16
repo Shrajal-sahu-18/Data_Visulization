@@ -7,3 +7,7 @@ This repositry contains my practice and projects related Data Visulization using
 ## Folder Structure
 - Matplotlib
 
+## Tools Used
+- numpy
+- pandas
+- Matplotlib
