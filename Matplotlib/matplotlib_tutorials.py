@@ -71,3 +71,23 @@ plt.ylabel("revenue")
 plt.title("Movie with revenue")
 plt.tight_layout()
 plt.savefig("Final_plot.png")
+
+
+#=============================
+#=============================
+
+oscar_movies = [
+    "The Dark Knight",
+    "The Hurt locker",
+    "The King's Sppech",
+    "The Artist",
+    "Argo"
+]
+oscar_years = [2008,2009,2010,2011,2012]
+oscar_revenue = [1005,170,427,133,232]
+plt.bar(oscar_years,oscar_revenue,color = "k")
+plt.title("Revenue in Each year")
+plt.xlabel("years")
+plt.ylabel("revenue")
+for i in range(len(oscar_years)):
+    plt.text(oscar_years[i],oscar_revenue[i]+7,str(oscar_revenue[i]),ha ="center")
