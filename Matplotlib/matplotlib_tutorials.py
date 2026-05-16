@@ -48,4 +48,8 @@ with plt.xkcd():
     plt.ylabel("Revenue (In $M)")
     plt.legend()
     plt.style.available
+    plt.style.use("dark_background")
+    plt.style.use("ggplot")
+    plt.style.use("default")
+    plt.grid()
    
