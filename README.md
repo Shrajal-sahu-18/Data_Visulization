@@ -1,1 +1,16 @@
-# Data_Visulization
+# Python Data Visulization
+This repositry contains my practice and projects related Data Visulization using python.
+
+## Topics Covered
+- Matplotlib
+
+## Folder Structure
+- Matplotlib
+
+## Tools Used
+- numpy
+- pandas
+- Matplotlib
+
+## Teacher
+- Shradha Khapra maa'm(Apna Collage)
