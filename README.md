@@ -1,1 +1,2 @@
 # Python Data Visulization
+This repositry contains my practice and projects related Data Visulization using python.
