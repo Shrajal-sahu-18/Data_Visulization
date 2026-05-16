@@ -53,3 +53,20 @@ with plt.xkcd():
     plt.style.use("default")
     plt.grid()
    
+
+#==================
+#==================
+oscar_movies = [
+    "The Dark Knight",
+    "The Hurt locker",
+    "The King's Sppech",
+    "The Artist",
+    "Argo"
+]
+oscar_years = [2008,2009,2010,2011,2012]
+oscar_revenue = [1005,170,427,133,232]
+plt.plot(oscar_movies,oscar_revenue)
+plt.xlabel("Years")
+plt.ylabel("revenue")
+plt.title("Movie with revenue")
+plt.tight_layout()
