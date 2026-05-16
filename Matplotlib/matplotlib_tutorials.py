@@ -36,3 +36,15 @@ plt.xlabel("Years")
 plt.ylabel("Revenue (In $M)")
 plt.legend()
 plt.show()
+
+
+#====================
+#====================
+with plt.xkcd():
+    plt.plot(oscar_years,oscar_revenue,label = "oscar_movies")
+    plt.plot(oscar_years,non_oscar_revenue, label = "Non oscar_movies")
+    plt.title("oscar movies vs Non_oscar movies revenue")
+    plt.xlabel("Years")
+    plt.ylabel("Revenue (In $M)")
+    plt.legend()
+   
