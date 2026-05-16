@@ -19,3 +19,4 @@ oscar_years = [2008,2009,2010,2011,2012]
 oscar_revenue = [1005,170,427,133,232] #  In $M
 #plot
 plt.plot(oscar_years,oscar_revenue)
+plt.title("Oscar Movies Revenue in each year")
