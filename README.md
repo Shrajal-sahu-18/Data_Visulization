@@ -11,3 +11,6 @@ This repositry contains my practice and projects related Data Visulization using
 - numpy
 - pandas
 - Matplotlib
+
+## Teacher
+- Shradha Khapra maa'm(Apna Collage)
