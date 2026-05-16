@@ -29,7 +29,7 @@ plt.ylabel("revenue(in $M)")
 
 non_oscar_movies = ["Slumdog millonaire","Avator","Inception","Hugo","Lincoin"]
 non_oscar_revenue = [378,2788,829,185,275]
-plt.plot(oscar_years,oscar_revenue,color ="#cbc3e3",marker = ">",label = "oscar_movies")
+plt.plot(oscar_years,oscar_revenue,color ="#cbc3e3",marker = ">", linestyle = "--",label = "oscar_movies")
 plt.plot(oscar_years,non_oscar_revenue,"<-g" , label = "Non oscar_movies")
 plt.title("oscar movies vs Non_oscar movies revenue")
 plt.xlabel("Years")
