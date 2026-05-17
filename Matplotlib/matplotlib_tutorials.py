@@ -139,3 +139,6 @@ oscar_movies = [
 ]
 # oscar_years = [2008,2009,2010,2011,2012]
 oscar_revenue = [1005,170,427,133,232]
+plt.barh(oscar_movies,oscar_revenue,label = "Oscar_revenue")
+plt.xlabel("revenue")
+plt.ylabel("Movie Revenue")
