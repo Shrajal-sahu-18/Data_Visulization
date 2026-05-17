@@ -152,3 +152,7 @@ age = [22,25,30,35,40,45,50,55,60,65]
 blood_pressure = [110,115,120,122,125,130,135,123,145,150]
 plt.scatter(age,blood_pressure,color = "red", s = blood_pressure,marker = ">",alpha = 0.6)
 plt.scatter(age,blood_pressure,cmap = "OrRd",c = blood_pressure)
+plt.title("People with Blood pressure Rate")
+plt.xlabel("age")
+plt.ylabel("Blood pressure")
+plt.grid()
