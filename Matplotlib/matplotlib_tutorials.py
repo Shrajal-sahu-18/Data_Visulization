@@ -93,3 +93,13 @@ for i in range(len(oscar_years)):
     plt.text(oscar_years[i],oscar_revenue[i]+7,str(oscar_revenue[i]),ha ="center")
 plt.ylim(0,max(oscar_revenue)+100)
 plt.xlim(min(oscar_years),max(oscar_years)+5)
+
+
+
+oscar_movies = [
+    "The Dark Knight",
+    "The Hurt locker",
+    "The King's Sppech",
+    "The Artist",
+    "Argo"
+]
