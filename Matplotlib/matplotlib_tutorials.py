@@ -178,3 +178,8 @@ plt.title("summer vs winter Data")
 plt.xlabel("temprature (°c)")
 plt.ylabel("humidity in %")
 plt.legend()
+
+
+
+expenses = ["salary","Rent","Marketing","R&D","Miscellaneous"]
+amounts = [500,150,120,100,50]
