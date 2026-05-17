@@ -142,3 +142,11 @@ oscar_revenue = [1005,170,427,133,232]
 plt.barh(oscar_movies,oscar_revenue,label = "Oscar_revenue")
 plt.xlabel("revenue")
 plt.ylabel("Movie Revenue")
+
+
+
+#scatter plots
+people = ["Person A", "Person B", "Person C","Person D","Person E"
+         ,"Person F", "Person G", "Person H", "Person I", "Person J"]
+age = [22,25,30,35,40,45,50,55,60,65]
+blood_pressure = [110,115,120,122,125,130,135,123,145,150]
