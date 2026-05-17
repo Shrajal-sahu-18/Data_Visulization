@@ -161,3 +161,14 @@ for i in range(len(people)):
     plt.annotate(people[i],xy = (age[i],blood_pressure[i]),xytext = (age[i]+1,blood_pressure[i]+6))
 plt.xlim(min(age),max(age)+10)
 plt.ylim(min(blood_pressure),max(blood_pressure)+5)
+
+
+
+cities = ["city A","city B","city C","city D","city E"]
+# winner: tempretrature (°c) vs humidity
+winter_temp = [5,2,10,0,7]
+winter_humidity = [80,75,65,85,70]
+
+# summer temprature(°c) vs humidity (%)
+summer_temp = [25,30,28,35,27]
+summer_humidity = [60,50,55,45,65]
