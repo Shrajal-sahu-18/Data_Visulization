@@ -112,3 +112,4 @@ years = [2008,2009,2010,2011,2012]
 
 plt.bar(years,oscar_revenue,label = "oscar_revenue") 
 plt.bar(years,non_oscar_revenue,label = " non-oscar_revenue") 
+import numpy as np
