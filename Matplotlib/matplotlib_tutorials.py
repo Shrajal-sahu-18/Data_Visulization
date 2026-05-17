@@ -103,3 +103,9 @@ oscar_movies = [
     "The Artist",
     "Argo"
 ]
+oscar_revenue = [1005,170,427,133,232]
+
+non_oscar_movies = ["Slumdog millonaire","Avator","Inception","Hugo","Lincoin"]
+non_oscar_revenue = [378,2788,829,185,275]
+
+years = [2008,2009,2010,2011,2012]
