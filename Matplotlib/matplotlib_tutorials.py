@@ -126,3 +126,16 @@ plt.title("oscar movie vs Non oscar movie revenue")
 plt.xlabel("years")
 plt.ylabel("Revenue (in $m)")
 plt.legend()
+
+
+
+#horizontal chart
+oscar_movies = [
+    "The Dark Knight",
+    "The Hurt locker",
+    "The King's Sppech",
+    "The Artist",
+    "Argo"
+]
+# oscar_years = [2008,2009,2010,2011,2012]
+oscar_revenue = [1005,170,427,133,232]
