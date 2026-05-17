@@ -183,5 +183,7 @@ plt.legend()
 
 expenses = ["salary","Rent","Marketing","R&D","Miscellaneous"]
 amounts = [500,150,120,100,50]
-explode = [0,0,0,0.1,0]
+explode = [0,0,0,0.1,0]# plt.style.use("default")
+# colors = ["red","pink","blue","black","yellow"]
+plt.style.use("default")
 plt.pie(amounts,labels = expenses,autopct ="%1.1f%%",wedgeprops ={ "edgecolor":"black","linewidth":1,"linestyle" :"--"},explode = explode,startangle = 180.,shadow =True)
