@@ -159,3 +159,5 @@ plt.grid()
 plt.colorbar(label = "bp")
 for i in range(len(people)):
     plt.annotate(people[i],xy = (age[i],blood_pressure[i]),xytext = (age[i]+1,blood_pressure[i]+6))
+plt.xlim(min(age),max(age)+10)
+plt.ylim(min(blood_pressure),max(blood_pressure)+5)
