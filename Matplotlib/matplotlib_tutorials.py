@@ -117,3 +117,8 @@ x = np.arange(len(years))
 width = 0.4
 plt.bar(x-width/2,oscar_revenue,width,label = "oscar_revenue") # shifting to left 
 plt.bar(x+width/2,non_oscar_revenue,width,label = " non-oscar_revenue") # shifting right side
+# for 3 bars
+# width = 0.25
+# plt.bar(x-width,oscar_revenue,width,label = "oscar_revenue")
+# plt.bar(x,non_oscar_revenue,width,label = " non-oscar_revenue") 
+# plt.bar(x+width,oscar_revenue,width,label = " non-oscar_revenue")
