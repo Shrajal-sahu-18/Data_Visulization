@@ -172,3 +172,9 @@ winter_humidity = [80,75,65,85,70]
 # summer temprature(°c) vs humidity (%)
 summer_temp = [25,30,28,35,27]
 summer_humidity = [60,50,55,45,65]
+plt.scatter(winter_temp,winter_humidity,label = "winter",)
+plt.scatter(summer_temp,summer_humidity,label = "summer")
+plt.title("summer vs winter Data")
+plt.xlabel("temprature (°c)")
+plt.ylabel("humidity in %")
+plt.legend()
