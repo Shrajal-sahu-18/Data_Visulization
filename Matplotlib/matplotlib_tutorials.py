@@ -122,3 +122,7 @@ plt.bar(x+width/2,non_oscar_revenue,width,label = " non-oscar_revenue") # shifti
 # plt.bar(x-width,oscar_revenue,width,label = "oscar_revenue")
 # plt.bar(x,non_oscar_revenue,width,label = " non-oscar_revenue") 
 # plt.bar(x+width,oscar_revenue,width,label = " non-oscar_revenue")
+plt.title("oscar movie vs Non oscar movie revenue")
+plt.xlabel("years")
+plt.ylabel("Revenue (in $m)")
+plt.legend()
