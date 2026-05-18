@@ -212,3 +212,7 @@ plt.title("Transaction amount Distribution - Legit vs Fraud")
 plt.xlabel("Amount in $")
 plt.ylabel("frequency")
 plt.legend()
+#box plots
+data = [7,8,5,6,9,4,10,12,15]
+plt.boxplot(data)
+plt.grid(True)
