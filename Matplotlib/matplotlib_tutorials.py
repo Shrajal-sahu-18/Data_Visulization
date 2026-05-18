@@ -187,3 +187,11 @@ explode = [0,0,0,0.1,0]# plt.style.use("default")
 # colors = ["red","pink","blue","black","yellow"]
 plt.style.use("default")
 plt.pie(amounts,labels = expenses,autopct ="%1.1f%%",wedgeprops ={ "edgecolor":"black","linewidth":1,"linestyle" :"--"},explode = explode,startangle = 180.,shadow =True)
+
+
+import numpy as np
+import matplotlib.pyplot as plt
+np.random.seed(0)
+score = np.random.normal(70,10,100)
+bins = [0,30,50,70,90,100]
+plt.hist(score,color = "blue",edgecolor = "black",bins = bins)
