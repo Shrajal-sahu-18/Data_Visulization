@@ -222,3 +222,10 @@ group2 = np.random.normal(60,10,100)
 
 plt.boxplot([group1,group2],tick_labels = ["gropu1","group2"],vert = False,showmeans = True,whis= 1.5)
 plt.grid(True)
+#stack plot 
+days = ["mon","tue","wed","thu","fri","sat","sun"]
+direct = [50,60,70,80,90,100,110]
+organic = [30,40,50,55,60,70,80]
+social = [20,25,30,35,40,50,60]
+plt.stackplot(days,direct,organic,social,labels = ["Direct","Organic","Social"])
+plt.legend()
