@@ -201,3 +201,10 @@ fraud_transactions = [50,100,150,200,300,500,750,1000,1200,1500,1500,2000,2500,3
 #transaction amount distribution - legit vs fraud
 plt.hist(legit_transaction,color = "green",edgecolor ="black",bins = 10,label ="legit",alpha = 0.5)
 plt.hist(fraud_transactions,color = "red",edgecolor ="black",bins = 10,label ="fraud",alpha = 0.5)
+plt.axvline(
+    x = 33,
+    linestyle = "--",
+    linewidth = "2",
+    color = "red",
+    label = "passing marks (33)"
+)
