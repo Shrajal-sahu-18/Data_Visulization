@@ -251,3 +251,6 @@ plt.title("plot3 - Sqare")
 plt.subplot(2,2,4)
 plt.plot(x,y4)
 plt.title("plot1 - Quebe")
+
+
+fig,ax = plt.subplots(2,2,figsize = (7,7))
