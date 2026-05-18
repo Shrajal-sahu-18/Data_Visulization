@@ -216,3 +216,9 @@ plt.legend()
 data = [7,8,5,6,9,4,10,12,15]
 plt.boxplot(data)
 plt.grid(True)
+#multiple dataset
+group1 = np.random.normal(50,10,100)
+group2 = np.random.normal(60,10,100)
+
+plt.boxplot([group1,group2],tick_labels = ["gropu1","group2"],vert = False,showmeans = True,whis= 1.5)
+plt.grid(True)
