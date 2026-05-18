@@ -235,3 +235,19 @@ y1 = [np.sqrt(i) for i in x] # sqare root
 y2 = [ i*2 for  i in x] #double
 y3 = [i**2 for i in x] # sqare
 y4 = [i**3 for i in x] #quebe
+plt.subplot(2,2,1)
+plt.plot(x,y1)
+plt.title("plot1 - sqare root")
+
+plt.subplot(2,2,2)
+plt.plot(x,y2)
+plt.title("plot2 - Double")
+
+
+plt.subplot(2,2,3)
+plt.plot(x,y3)
+plt.title("plot3 - Sqare")
+
+plt.subplot(2,2,4)
+plt.plot(x,y4)
+plt.title("plot1 - Quebe")
