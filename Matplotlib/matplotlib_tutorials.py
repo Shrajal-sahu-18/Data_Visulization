@@ -267,3 +267,4 @@ ax[1][0].set_title("Plot3 - Sqare")
 
 ax[1][1].plot(x,y4)
 ax[1][1].set_title("Plot4 - Quebe")
+fig.tight_layout()
