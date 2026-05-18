@@ -229,3 +229,9 @@ organic = [30,40,50,55,60,70,80]
 social = [20,25,30,35,40,50,60]
 plt.stackplot(days,direct,organic,social,labels = ["Direct","Organic","Social"])
 plt.legend()
+#subplot
+x = [1,2,3,4,5,6,7,8,9,10]
+y1 = [np.sqrt(i) for i in x] # sqare root 
+y2 = [ i*2 for  i in x] #double
+y3 = [i**2 for i in x] # sqare
+y4 = [i**3 for i in x] #quebe
