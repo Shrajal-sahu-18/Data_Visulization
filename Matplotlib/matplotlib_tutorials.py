@@ -254,3 +254,16 @@ plt.title("plot1 - Quebe")
 
 
 fig,ax = plt.subplots(2,2,figsize = (7,7))
+ax[0][0].plot(x,y1)
+ax[0][0].set_title("Plot1 - sqare root")
+ax[0][0].set_xlabel("X axis value")
+ax[0][0].set_ylabel("y axis value")
+
+ax[0][1].plot(x,y2)
+ax[0][1].set_title("Plot2 -Double")
+
+ax[1][0].plot(x,y3)
+ax[1][0].set_title("Plot3 - Sqare")
+
+ax[1][1].plot(x,y4)
+ax[1][1].set_title("Plot4 - Quebe")
