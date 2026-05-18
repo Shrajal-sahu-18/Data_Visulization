@@ -208,3 +208,7 @@ plt.axvline(
     color = "red",
     label = "passing marks (33)"
 )
+plt.title("Transaction amount Distribution - Legit vs Fraud")
+plt.xlabel("Amount in $")
+plt.ylabel("frequency")
+plt.legend()
