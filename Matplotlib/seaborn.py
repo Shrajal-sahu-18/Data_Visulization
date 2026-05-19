@@ -41,3 +41,11 @@ sns.lineplot(
     # hue = "time"
     
 )
+
+
+flights = sns.load_dataset("flights")
+sns.lineplot(
+    data = flights,
+    x = "year",
+    y = "passengers"
+)
