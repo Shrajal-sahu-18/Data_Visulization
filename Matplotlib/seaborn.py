@@ -14,3 +14,6 @@ sns.relplot(
     size = "size",
     style = "smoker"
 )
+
+x_val =[1,2,3,4,5,6,7,8,9,10]
+y_val = [i**2 for i in x_val]
