@@ -85,3 +85,18 @@ sns.heatmap(
 )
 plt.title("pasenger heatmap")
 plt.tight_layout()
+
+#best practice
+fig,ax = plt.subplots()
+sns.lineplot(
+    data = tips,x = "day",
+    y = "total_bill",
+    hue ="sex",
+    ax = ax,
+    errorbar=None,
+    marker = "o"
+)
+ax.set_title("avg bill value for money")
+ax.set_xlabel("days")
+ax.set_ylabel("Total_bil amount")
+fig.tight_layout()
