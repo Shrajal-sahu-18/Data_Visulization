@@ -1,3 +1,4 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
 sns.set_theme()
+sns.get_dataset_names()
