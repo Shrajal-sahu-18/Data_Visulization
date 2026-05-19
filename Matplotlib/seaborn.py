@@ -65,3 +65,11 @@ sns.boxplot(
     y = "tip",
     
 )
+
+
+pen = sns.load_dataset("penguins")
+sns.histplot(
+    data = pen,
+    x = "body_mass_g",
+    bins = 30
+)
