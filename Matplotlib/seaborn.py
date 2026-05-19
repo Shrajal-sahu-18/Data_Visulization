@@ -73,3 +73,15 @@ sns.histplot(
     x = "body_mass_g",
     bins = 30
 )
+
+
+
+
+# flights.head()
+flight_pivot  = flights.pivot(index = "month",columns ="year" ,values = "passengers")
+sns.heatmap(
+    flight_pivot,
+    cmap = "coolwarm",annot = True, fmt = "d"
+)
+plt.title("pasenger heatmap")
+plt.tight_layout()
