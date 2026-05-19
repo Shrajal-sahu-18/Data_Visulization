@@ -295,3 +295,8 @@ for i in range(2):
         axes[i][j].set_title(cities[city_no])
         axes[i][j].grid(True)
         city_no = city_no+1
+
+fig.suptitle("Temprature in citites over the week")
+fig.supylabel("Temprature")
+fig.supxlabel("Days")
+fig.tight_layout()
