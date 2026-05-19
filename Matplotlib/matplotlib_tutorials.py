@@ -283,3 +283,7 @@ temprature = [
 ]
 fig,axes = plt.subplots(2,2)
 axes = axes.flatten()
+for i,ax in enumerate(axes):
+    ax.plot(days,temprature[i],marker = "o")
+    ax.set_title(cities[i])
+    ax.grid(True)
