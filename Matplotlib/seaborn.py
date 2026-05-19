@@ -57,3 +57,11 @@ sns.barplot(
     x = "day",
     y = "tip",hue = "sex"
 )
+
+
+sns.boxplot(
+    data =tips,
+    x = "day",
+    y = "tip",
+    
+)
