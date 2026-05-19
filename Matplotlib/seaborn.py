@@ -32,3 +32,12 @@ sns.scatterplot(
     hue = "time"
     
 )
+
+
+sns.load_dataset("tips")
+sns.lineplot(
+    data=tips,
+    x = "total_bill",y = "tip",
+    # hue = "time"
+    
+)
