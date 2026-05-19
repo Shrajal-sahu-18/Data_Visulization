@@ -287,3 +287,11 @@ for i,ax in enumerate(axes):
     ax.plot(days,temprature[i],marker = "o")
     ax.set_title(cities[i])
     ax.grid(True)
+
+city_no = 0
+for i in range(2):
+    for j in range(2):
+        axes[i][j].plot(days,temprature[city_no],marker = "o")
+        axes[i][j].set_title(cities[city_no])
+        axes[i][j].grid(True)
+        city_no = city_no+1
