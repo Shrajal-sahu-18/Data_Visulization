@@ -49,3 +49,11 @@ sns.lineplot(
     x = "year",
     y = "passengers"
 )
+
+
+print(tips.head())
+sns.barplot(
+    data =tips,
+    x = "day",
+    y = "tip",hue = "sex"
+)
