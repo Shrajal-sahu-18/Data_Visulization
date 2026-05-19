@@ -269,3 +269,15 @@ ax[1][1].plot(x,y4)
 ax[1][1].set_title("Plot4 - Quebe")
 fig.tight_layout()
 fig.suptitle("Multiple Plots")
+
+
+#Task
+days = ["mon","tue","wed","thu","fri"]
+cities = ["new york","london","delhi","tokyo"]
+
+temprature = [
+    [22,23,21,24,25],#New york
+    [18,19,17,20,21],#London
+    [30,32,31,33,34],#Delhi
+    [25,26,24,27,28]#Tokyo
+]
