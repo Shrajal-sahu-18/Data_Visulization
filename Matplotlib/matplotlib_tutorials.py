@@ -281,3 +281,5 @@ temprature = [
     [30,32,31,33,34],#Delhi
     [25,26,24,27,28]#Tokyo
 ]
+fig,axes = plt.subplots(2,2)
+axes = axes.flatten()
