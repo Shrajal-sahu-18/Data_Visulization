@@ -17,3 +17,10 @@ sns.relplot(
 
 x_val =[1,2,3,4,5,6,7,8,9,10]
 y_val = [i**2 for i in x_val]
+sns.set_theme(style = "ticks")
+sns.relplot(
+    x= x_val,
+    y = y_val,
+    kind = "line"
+   
+)
