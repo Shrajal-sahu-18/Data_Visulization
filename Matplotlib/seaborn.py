@@ -24,3 +24,11 @@ sns.relplot(
     kind = "line"
    
 )
+
+sns.load_dataset("tips")
+sns.scatterplot(
+    data=tips,
+    x = "total_bill",y = "tip",
+    hue = "time"
+    
+)
