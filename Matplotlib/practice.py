@@ -114,3 +114,35 @@ plt.ylabel("Runs")
 plt.grid()
 
 plt.show()
+
+
+#          ----Match - Wise Team Scoare ----
+
+
+import matplotlib.pyplot as plt
+
+matches = [1,2,3,4,5]
+rcb_scores = [180,210,175,220,190]
+
+avg_score = sum(rcb_scores)/len(rcb_scores)
+
+plt.figure(figsize=(8,5))
+
+plt.plot(matches, rcb_scores, marker='o')
+
+plt.fill_between(matches, rcb_scores, alpha=0.3)
+
+highest = max(rcb_scores)
+highest_match = matches[rcb_scores.index(highest)]
+
+plt.scatter(highest_match, highest, s=200)
+
+plt.axhline(avg_score, linestyle='--', label=f'Average = {avg_score:.1f}')
+
+plt.title("RCB Match Scores")
+plt.xlabel("Matches")
+plt.ylabel("Scores")
+plt.legend()
+plt.grid()
+
+plt.show()
