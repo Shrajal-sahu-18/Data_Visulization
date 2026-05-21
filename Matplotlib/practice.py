@@ -42,3 +42,26 @@ plt.legend()
 plt.grid()
 
 plt.show()
+
+
+#              ----Wickets----Pie Chart----
+
+import matplotlib.pyplot as plt
+
+bowlers = ["Bumrah", "Shami", "Rashid", "Siraj"]
+wickets = [18, 15, 12, 10]
+
+explode = [0.1, 0, 0, 0]
+
+plt.figure(figsize=(7,7))
+
+plt.pie(
+    wickets,
+    labels=bowlers,
+    autopct='%1.1f%%',
+    explode=explode
+)
+
+plt.title("IPL Wickets Distribution")
+
+plt.show()
