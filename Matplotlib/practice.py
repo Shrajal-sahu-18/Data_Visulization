@@ -1,6 +1,6 @@
 #            ----IPL----
 
-#            ----TEAM RUNS----
+#            ----TEAM RUNS----Bar Chart----
 
 import matplotlib.pyplot as plt
 
@@ -19,5 +19,26 @@ plt.title("IPL Team Runs")
 plt.xlabel("Teams")
 plt.ylabel("Runs")
 plt.grid(axis='y')
+
+plt.show()
+
+
+
+#                ----player Runs----Line Plot----
+
+import matplotlib.pyplot as plt
+
+matches = [1,2,3,4,5]
+virat_runs = [45, 72, 10, 88, 56]
+
+plt.figure(figsize=(8,5))
+
+plt.plot(matches, virat_runs, marker='o', linestyle='--', label="Virat Kohli")
+
+plt.title("Virat Kohli Match Runs")
+plt.xlabel("Matches")
+plt.ylabel("Runs")
+plt.legend()
+plt.grid()
 
 plt.show()
