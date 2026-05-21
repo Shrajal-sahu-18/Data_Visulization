@@ -88,3 +88,29 @@ plt.legend()
 plt.grid()
 
 plt.show()
+
+
+#               ----Strike Rate Scatter Plot----
+
+
+import matplotlib.pyplot as plt
+
+players = ["A","B","C","D","E"]
+
+strike_rate = [120,145,160,130,155]
+runs = [300,450,500,350,480]
+
+plt.figure(figsize=(8,5))
+
+plt.scatter(strike_rate, runs, s=200)
+
+for i in range(len(players)):
+    plt.text(strike_rate[i], runs[i], players[i])
+
+plt.title("Strike Rate vs Runs")
+plt.xlabel("Strike Rate")
+plt.ylabel("Runs")
+
+plt.grid()
+
+plt.show()
