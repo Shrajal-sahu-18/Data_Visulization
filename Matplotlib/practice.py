@@ -65,3 +65,26 @@ plt.pie(
 plt.title("IPL Wickets Distribution")
 
 plt.show()
+
+
+#            ----Two player Comparison----
+
+import matplotlib.pyplot as plt
+
+matches = [1,2,3,4,5]
+
+virat = [45,72,10,88,56]
+rohit = [30,80,40,60,70]
+
+plt.figure(figsize=(8,5))
+
+plt.plot(matches, virat, marker='o', label="Virat Kohli")
+plt.plot(matches, rohit, marker='s', label="Rohit Sharma")
+
+plt.title("Virat vs Rohit Runs")
+plt.xlabel("Matches")
+plt.ylabel("Runs")
+plt.legend()
+plt.grid()
+
+plt.show()
