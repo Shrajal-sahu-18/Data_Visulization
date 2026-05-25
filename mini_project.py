@@ -7,3 +7,4 @@ grades = ["A","B","C"]
 grade_count = [2,2,1]
 #figure 
 plt.figure(figsize=(12,8))
+plt.subplot(2,2,1)
