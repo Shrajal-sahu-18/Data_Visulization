@@ -22,3 +22,11 @@ max_index = marks.index(max_marks)
 plt.annotate("Highest",xy = (students[max_index],max_marks) ,xytext = (students[max_index],max_marks + 5),
              arrowprops = dict(facecolor = "black",shrink = 0.05)
             )
+
+
+
+# #bar chart
+plt.barh(students,attendence, color = "orange")
+plt.title("attendence")
+plt.xlabel("attendence %")
+plt.ylabel("students")
