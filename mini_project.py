@@ -12,3 +12,13 @@ plt.bar(students,marks) #1
 plt.title("Student Marks")
 plt.xlabel("student name")
 plt.ylabel("marks")
+
+
+# # highest marks annotations
+# #==================
+# #2
+max_marks = max(marks)
+max_index = marks.index(max_marks)
+plt.annotate("Highest",xy = (students[max_index],max_marks) ,xytext = (students[max_index],max_marks + 5),
+             arrowprops = dict(facecolor = "black",shrink = 0.05)
+            )
