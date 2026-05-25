@@ -9,3 +9,6 @@ grade_count = [2,2,1]
 plt.figure(figsize=(12,8))
 plt.subplot(2,2,1)
 plt.bar(students,marks) #1
+plt.title("Student Marks")
+plt.xlabel("student name")
+plt.ylabel("marks")
