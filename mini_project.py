@@ -43,3 +43,6 @@ plt.title("grade disribution")
 plt.subplot(2,2,4)
 
 plt.plot(students,marks,marker = "o",linestyle = "--")
+plt.title("marks trend")
+plt.xlabel("students")
+plt.ylabel("Marks")
