@@ -30,3 +30,10 @@ plt.barh(students,attendence, color = "orange")
 plt.title("attendence")
 plt.xlabel("attendence %")
 plt.ylabel("students")
+
+
+
+#=================
+# pie chart
+plt.pie(grade_count,labels = grades,autopct ="%1.1f%%",startangle = 90)
+plt.title("grade disribution")
