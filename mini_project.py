@@ -41,3 +41,5 @@ plt.title("grade disribution")
 
 #line plot
 plt.subplot(2,2,4)
+
+plt.plot(students,marks,marker = "o",linestyle = "--")
