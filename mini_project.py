@@ -47,3 +47,5 @@ plt.title("marks trend")
 plt.xlabel("students")
 plt.ylabel("Marks")
 plt.grid()
+plt.tight_layout()#layout
+plt.show()#show
