@@ -5,3 +5,5 @@ attendence = [85,95,70,90,80]
 #grade distribution
 grades = ["A","B","C"]
 grade_count = [2,2,1]
+#figure 
+plt.figure(figsize=(12,8))
