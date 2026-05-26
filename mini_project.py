@@ -57,3 +57,4 @@ rohit = [35,60,55,80,40]
 plt.plot(matches,virat,marker = "o",linestyle = "--",color = "blue",label = "virat")
 plt.plot(matches,rohit,marker = "s",linestyle = "-",color = "red",label = "rohit")
 plt.title("IPL performance compariasion")
+plt.xlabel("Matches")
