@@ -59,3 +59,4 @@ plt.plot(matches,rohit,marker = "s",linestyle = "-",color = "red",label = "rohit
 plt.title("IPL performance compariasion")
 plt.xlabel("Matches")
 plt.ylabel("Runs")
+plt.grid()
