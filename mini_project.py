@@ -55,3 +55,4 @@ matches = [1,2,3,4,5]
 virat = [45,70,30,100,65]
 rohit = [35,60,55,80,40]
 plt.plot(matches,virat,marker = "o",linestyle = "--",color = "blue",label = "virat")
+plt.plot(matches,rohit,marker = "s",linestyle = "-",color = "red",label = "rohit")
