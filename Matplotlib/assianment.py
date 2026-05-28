@@ -24,3 +24,6 @@ sns.scatterplot(
 plt.title("Flipper_length vs Body Mass")
 plt.xlabel("Flipper_length(mm)")
 plt.ylabel("Body Mass (g)")
+
+
+tips = sns.load_dataset("tips")
