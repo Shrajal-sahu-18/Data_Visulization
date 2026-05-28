@@ -34,3 +34,5 @@ sns.boxplot(
     y = "total_bill",
     hue = "sex"
 )
+plt.title("Total bill by day and sex")
+plt.show()
