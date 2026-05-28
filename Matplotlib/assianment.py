@@ -28,3 +28,9 @@ plt.ylabel("Body Mass (g)")
 
 tips = sns.load_dataset("tips")
 plt.figure(figsize = (8,5))
+sns.boxplot(
+    data = tips,
+    x = "day",
+    y = "total_bill",
+    hue = "sex"
+)
