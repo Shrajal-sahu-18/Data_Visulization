@@ -10,3 +10,4 @@ plt.ylabel("frequency")
 plt.title("histogrames of scores")
 plt.legend()
 plt.show()
+#assianment1 complete
