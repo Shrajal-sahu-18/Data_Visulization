@@ -15,3 +15,9 @@ plt.show()
 
 
 penguins = sns.load_dataset("penguins")
+sns.scatterplot(
+    data = penguins,
+    x = "flipper_length_mm",
+    y = "body_mass_g",
+    hue = "species"
+)
