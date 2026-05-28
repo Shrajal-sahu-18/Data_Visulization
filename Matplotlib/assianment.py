@@ -11,3 +11,7 @@ plt.title("histogrames of scores")
 plt.legend()
 plt.show()
 #assianment1 complete
+
+
+
+penguins = sns.load_dataset("penguins")
