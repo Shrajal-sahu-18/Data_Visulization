@@ -27,3 +27,4 @@ plt.ylabel("Body Mass (g)")
 
 
 tips = sns.load_dataset("tips")
+plt.figure(figsize = (8,5))
