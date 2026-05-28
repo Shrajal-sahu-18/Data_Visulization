@@ -8,3 +8,5 @@ plt.axvline(mean_score,linestyle = "--",color = "red",label = f" mean = {mean_sc
 plt.xlabel("scores")
 plt.ylabel("frequency")
 plt.title("histogrames of scores")
+plt.legend()
+plt.show()
