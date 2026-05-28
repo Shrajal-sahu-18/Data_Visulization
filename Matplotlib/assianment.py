@@ -21,3 +21,6 @@ sns.scatterplot(
     y = "body_mass_g",
     hue = "species"
 )
+plt.title("Flipper_length vs Body Mass")
+plt.xlabel("Flipper_length(mm)")
+plt.ylabel("Body Mass (g)")
