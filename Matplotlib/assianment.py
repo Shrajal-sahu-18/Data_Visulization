@@ -51,3 +51,4 @@ sns.scatterplot(
 plt.title("total bill vs tip")
 plt.xlabel("Total Bill")
 plt.ylabel("Tip")
+plt.show()
