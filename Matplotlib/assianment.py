@@ -45,4 +45,5 @@ sns.scatterplot(
     data = tips,
     x = "total_bill",
     y = "tip",
+    hue = "sex",
 )
