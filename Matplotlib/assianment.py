@@ -48,3 +48,4 @@ sns.scatterplot(
     hue = "sex",
     style = "smoker"
 )
+plt.title("total bill vs tip")
