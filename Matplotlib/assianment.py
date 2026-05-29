@@ -41,3 +41,4 @@ plt.show()
 
 #assianment - 3
 tips = sns.load_dataset("tips")
+sns.scatterplot
