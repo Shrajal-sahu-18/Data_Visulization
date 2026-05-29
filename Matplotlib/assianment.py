@@ -49,3 +49,4 @@ sns.scatterplot(
     style = "smoker"
 )
 plt.title("total bill vs tip")
+plt.xlabel("Total Bill")
