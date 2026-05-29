@@ -36,3 +36,7 @@ sns.boxplot(
 )
 plt.title("Total bill by day and sex")
 plt.show()
+
+
+
+#assianment - 3
