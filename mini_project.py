@@ -86,3 +86,5 @@ plt.show()
 
 months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
 sales = [1200, 1500, 1800, 1700, 2100, 2500]
+
+plt.plot(months, sales, marker="o")
