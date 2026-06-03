@@ -81,3 +81,8 @@ plt.title("Student Marks")
 plt.xlabel("Students")
 plt.ylabel("Marks")
 plt.show()
+
+
+
+months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
+sales = [1200, 1500, 1800, 1700, 2100, 2500]
