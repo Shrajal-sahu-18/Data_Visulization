@@ -98,3 +98,4 @@ plt.show()
 
 categories = ["Food", "Rent", "Travel", "Shopping"]
 expenses = [5000, 10000, 3000, 2000]
+plt.pie(expenses, labels=categories, autopct="%1.1f%%")
