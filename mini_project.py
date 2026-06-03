@@ -72,3 +72,5 @@ print("/n project complete")
 
 #mini project
 import matplotlib.pyplot as plt
+students = ["Aman", "Rahul", "Priya", "Neha", "Riya"]
+marks = [85, 72, 90, 78, 88]
