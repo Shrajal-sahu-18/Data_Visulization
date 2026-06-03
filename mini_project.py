@@ -92,3 +92,9 @@ plt.title("Monthly Sales")
 plt.xlabel("Month")
 plt.ylabel("Sales")
 plt.show()
+
+
+
+
+categories = ["Food", "Rent", "Travel", "Shopping"]
+expenses = [5000, 10000, 3000, 2000]
