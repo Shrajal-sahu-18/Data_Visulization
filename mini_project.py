@@ -71,3 +71,4 @@ print("/n project complete")
 
 
 #mini project
+import matplotlib.pyplot as plt
