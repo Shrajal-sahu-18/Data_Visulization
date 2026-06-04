@@ -123,3 +123,9 @@ plt.title("Student Marks")
 plt.xlabel("Students")
 plt.ylabel("Marks")
 plt.show()
+
+
+
+
+expenses = [4000, 8000, 2000, 3000]
+labels = ["Food", "Rent", "Travel", "Shopping"]
