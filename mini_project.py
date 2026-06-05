@@ -169,3 +169,7 @@ marks = [78, 85, 92, 74, 88]
 
 
 plt.bar(students, marks, color='skyblue')
+
+plt.title('Student Marks')
+plt.xlabel('Students')
+plt.ylabel('Marks')
