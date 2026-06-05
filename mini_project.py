@@ -136,4 +136,6 @@ plt.show()
 
 
 import matplotlib.pyplot as plt 
-
+# Sample data
+months = ['Jan', 'Feb', 'Mar', 'Apr', 'May']
+sales = [120, 150, 180, 170, 210]
