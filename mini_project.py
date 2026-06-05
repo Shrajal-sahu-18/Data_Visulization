@@ -142,3 +142,6 @@ sales = [120, 150, 180, 170, 210]
 
 # Create figure
 plt.figure(figsize=(8, 5))
+
+# Plot line chart
+plt.plot(months, sales, marker='o', color='blue', linewidth=2)
