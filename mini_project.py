@@ -132,3 +132,8 @@ labels = ["Food", "Rent", "Travel", "Shopping"]
 plt.pie(expenses, labels=labels, autopct="%1.1f%%")
 plt.title("Monthly Expenses")
 plt.show()
+
+
+
+import matplotlib.pyplot as plt 
+
