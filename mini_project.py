@@ -150,3 +150,9 @@ plt.plot(months, sales, marker='o', color='blue', linewidth=2)
 plt.title('Monthly Sales Report')
 plt.xlabel('Month')
 plt.ylabel('Sales')
+
+
+
+
+# Add grid
+plt.grid(True)
