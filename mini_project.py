@@ -159,3 +159,9 @@ plt.grid(True)
 
 # Show plot
 plt.show()
+
+
+
+
+students = ['A', 'B', 'C', 'D', 'E']
+marks = [78, 85, 92, 74, 88]
