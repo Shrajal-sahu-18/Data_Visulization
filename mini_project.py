@@ -156,3 +156,6 @@ plt.ylabel('Sales')
 
 # Add grid
 plt.grid(True)
+
+# Show plot
+plt.show()
