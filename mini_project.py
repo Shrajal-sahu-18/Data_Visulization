@@ -145,3 +145,8 @@ plt.figure(figsize=(8, 5))
 
 # Plot line chart
 plt.plot(months, sales, marker='o', color='blue', linewidth=2)
+
+# Add labels and title
+plt.title('Monthly Sales Report')
+plt.xlabel('Month')
+plt.ylabel('Sales')
