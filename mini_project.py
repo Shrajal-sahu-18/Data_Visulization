@@ -185,3 +185,6 @@ data = {
     "Student": ["Aman", "Riya", "Rahul", "Priya", "Karan"],
     "Marks": [85, 92, 78, 88, 95]
 }
+
+# Create DataFrame
+df = pd.DataFrame(data)
