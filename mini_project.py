@@ -191,3 +191,7 @@ df = pd.DataFrame(data)
 
 # Display data
 print(df)
+
+
+# Create bar chart
+plt.figure(figsize=(8, 5))
