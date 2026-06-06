@@ -198,3 +198,5 @@ plt.figure(figsize=(8, 5))
 plt.bar(df["Student"], df["Marks"])
 
 plt.title("Student Marks Analysis")
+plt.xlabel("Students")
+plt.ylabel("Marks")
