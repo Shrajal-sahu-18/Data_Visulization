@@ -178,3 +178,10 @@ plt.ylabel('Marks')
 
 import pandas as pd
 import matplotlib.pyplot as plt
+
+
+# Sample student marks data
+data = {
+    "Student": ["Aman", "Riya", "Rahul", "Priya", "Karan"],
+    "Marks": [85, 92, 78, 88, 95]
+}
