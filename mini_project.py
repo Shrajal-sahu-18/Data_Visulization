@@ -173,3 +173,8 @@ plt.bar(students, marks, color='skyblue')
 plt.title('Student Marks')
 plt.xlabel('Students')
 plt.ylabel('Marks')
+
+
+
+import pandas as pd
+import matplotlib.pyplot as plt
