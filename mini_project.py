@@ -188,3 +188,6 @@ data = {
 
 # Create DataFrame
 df = pd.DataFrame(data)
+
+# Display data
+print(df)
