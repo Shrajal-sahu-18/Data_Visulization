@@ -215,3 +215,5 @@ sales = [120, 150, 180, 200, 170, 220]
 plt.plot(months, sales, marker='o')
 # Add title and labels
 plt.title('Monthly Sales Report')
+plt.xlabel('Months')
+plt.ylabel('Sales')
