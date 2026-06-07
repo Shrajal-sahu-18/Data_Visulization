@@ -210,3 +210,6 @@ import matplotlib.pyplot as plt
 # Sample data
 months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
 sales = [120, 150, 180, 200, 170, 220]
+
+# Create line plot
+plt.plot(months, sales, marker='o')
