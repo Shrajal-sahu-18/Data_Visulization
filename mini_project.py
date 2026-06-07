@@ -229,3 +229,6 @@ marks = [85, 90, 78, 95]
 
 plt.bar(subjects, marks)
 plt.title('Student Marks')
+plt.xlabel('Subjects')
+plt.ylabel('Marks')
+plt.show()
