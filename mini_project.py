@@ -220,3 +220,8 @@ plt.ylabel('Sales')
 
 # Show grid
 plt.grid(True)
+
+
+
+subjects = ['Math', 'Science', 'English', 'Computer']
+marks = [85, 90, 78, 95]
