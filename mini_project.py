@@ -203,3 +203,7 @@ plt.ylabel("Marks")
 plt.grid(axis="y")
 plt.show()
 print("\n project complete\n")
+
+
+
+import matplotlib.pyplot as plt 
