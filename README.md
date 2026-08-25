@@ -9,7 +9,7 @@ This repositry contains my practice and projects related Data Visulization using
 
 ## Tools Used 
 - numpy
-- pandas
+- pandas 
 - Matplotlib
 
 ## Teacher
