@@ -3,6 +3,7 @@ This repositry contains my practice and projects related Data Visulization using
 
 ## Topics Covered
 - Matplotlib
+- Seaborn
 
 ## Folder Structure
 - Matplotlib
